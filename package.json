@@ -1,4 +1,7 @@
 {
     "__comment": "This file(package.json) is not mandatory in case of commonjs but will need for type : module",
-    "type": "commonjs"
+    "type": "commonjs",
+    "dependencies": {
+        "mongodb": "^6.8.0"
+    }
 }
