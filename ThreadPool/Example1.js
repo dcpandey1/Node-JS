@@ -27,7 +27,7 @@ key 5 is generated
 
 
 /*
-There is only 4 thread in libuv so 
+There is only 4 thread by default in libuv so
 key 5 is generated will be printed only when one of 4 threads become free
-We can change the sixe of thread pool
+We can change the size of thread pool
  */
